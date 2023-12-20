@@ -11,13 +11,12 @@
 [Xuansong Xie](https://scholar.google.com/citations?user=M0Ei1zkAAAAJ&hl=en)<br>
 
 [![ModelScope Spaces](
-https://img.shields.io/badge/ModelScope-Studios-blue)](https:***)
+https://img.shields.io/badge/ModelScope-Studios-blue)](https://modelscope.cn/studios/***)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/***/****)
 
 En3D is a large 3D human generative model trained on millions of synthetic 2D data, independently of any pre-existing 3D or 2D assets. 
 This repo contains an implementation of En3D and provides a series of applications built upon it. In addition, this repo aims to be a useful creative tool to produce realistic 3D avatars from seeds, text prompts or images. These generated avatars can be seamlessly animated and compatible with the modern graphics workflows. 
 
-## Demo
 
 Generative 3D humans
 ![demo](assets/demo_3dgen.png)
@@ -31,7 +30,7 @@ Image guided synthesis
 ![demo](assets/demo_img.gif)
 ![demo](assets/demo_img2.gif)
 
-More results can be found in [project page](https://menyifang.github.io/projects/En3D/index.html).
+More demo results can be found in [project page](https://menyifang.github.io/projects/En3D/index.html).
 
 
 ## Updates
