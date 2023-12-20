@@ -26,13 +26,12 @@ Generative 3D humans
 ![demo](assets/demo_3dgen.png)
 
 
-Text-3D-Animate
+Text guided synthesis
 ![demo](assets/demo_text.gif)
 
 
-Image-3D-Animate
+Image guided synthesis
 ![demo](assets/demo_image.gif)
-![demo](assets/demo_image2.gif)
 
 More results can be found in [project page](https://menyifang.github.io/projects/En3D/index.html).
 
