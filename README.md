@@ -31,7 +31,8 @@ Text guided synthesis
 
 
 Image guided synthesis
-![demo](assets/demo_image.gif)
+![demo](assets/demo_img.gif)
+![demo](assets/demo_img2.gif)
 
 More results can be found in [project page](https://menyifang.github.io/projects/En3D/index.html).
 
