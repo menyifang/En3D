@@ -16,16 +16,16 @@ All outputs are compatible with the modern graphics workflows.
 
 
 
-**Generative 3D humans**:<br> 
+**Generative 3D humans**<br> 
 https://github.com/menyifang/En3D/tree/main/assets/overview.mp4
 
 
-**Text guided synthesis**:<br> 
+**Text guided synthesis**<br> 
 
 ![demo](assets/demo_text.gif)
 
 
-**Image guided synthesis**:<br> 
+**Image guided synthesis**<br> 
 
 ![demo](assets/demo_img.gif)
 
@@ -34,6 +34,7 @@ More results can be found in [project page](https://menyifang.github.io/projects
 
 ## Updates
 (2023-01-03) The paper and video are released.
+
 (2023-12-20) The project page is available now at [website](https://menyifang.github.io/projects/En3D/index.html).
 
 
