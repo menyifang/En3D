@@ -17,7 +17,7 @@ All outputs are compatible with the modern graphics workflows.
 
 
 **Generative 3D humans**<br> 
-https://github.com/menyifang/En3D/tree/main/assets/overview.mp4
+https://github.com/menyifang/En3D/assets/47292223/8b57a74d-6270-4b37-ae1e-ee2c0baad51d
 
 
 **Text guided synthesis**<br> 
