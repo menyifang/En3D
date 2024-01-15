@@ -1,0 +1,5 @@
+modelscope[cv]==1.10.0
+gradio==4.10.0
+git+https://github.com/NVlabs/nvdiffrast/
+imageio
+

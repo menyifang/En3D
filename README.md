@@ -1,6 +1,6 @@
 # En3D - Official PyTorch Implementation
 
-### [Project page](https://menyifang.github.io/projects/En3D/index.html) | [Paper](https://arxiv.org/abs/2401.01173) | [Video](https://www.youtube.com/watch?v=YxMjaKgGdCc&t=5s) 
+### [Project page](https://menyifang.github.io/projects/En3D/index.html) | [Paper](https://arxiv.org/abs/2401.01173) | [Video](https://www.youtube.com/watch?v=YxMjaKgGdCc&t=5s) | [Online Demo](https://modelscope.cn/studios/alibaba_openvision_3dgen/En3D/summary)
 
 **En3D: An Enhanced Generative Model for Sculpting 3D Humans from 2D Synthetic Data**<br>
 [Yifang Men](https://menyifang.github.io/), 
@@ -34,9 +34,75 @@ More results can be found in [project page](https://menyifang.github.io/projects
 
 
 ## Updates
+(2023-01-15) ModelScope Online demo is available! Try out [![ModelScope Spaces](
+https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/studios/alibaba_openvision_3dgen/En3D/summary). 
+
+(2023-01-15) A Rigged & Animated 3D Human library (3DHuman-Syn) is released, containing ~1000 avatars produced by En3D for quick experience.
+
 (2023-01-03) The paper and video are released.
 
-(2023-12-20) The project page is available now at [website](https://menyifang.github.io/projects/En3D/index.html).
+## Web Demo
+- Integrated an online demo into [ModelScope](https://modelscope.cn/studios/alibaba_openvision_3dgen/En3D/summary). Try out and have fun!
+
+
+## Installation
+```bash
+conda create -n en3d python=3.8
+conda activate en3d
+pip install -r requirements.txt
+```
+
+## Quick Start
+
+### WebUI usage
+[Recommended] A deployed [Online Demo](https://modelscope.cn/studios/alibaba_openvision_3dgen/En3D/summary)
+
+![app](assets/app_thumb.png)
+
+
+With own machine, you can also deploy our demo as below, which provides flexible user interface. Both CPU/GPU are supported for avatar render and animation, only GPU (>24G memory) is supported for avatar generation.
+
+```bash
+python app.py
+```
+
+### Synthetic avatar library
+
+We released a Rigged & Animated 3D Human library (3DHuman-Syn), containing ~1000 characters produced by En3D, and 1000+ actions are provided for animation.
+
+- Avatar download and rendering
+```bash
+python render.py
+```
+
+- Avatar animation
+```bash
+python animation.py
+```
+
+
+- AR application <a href="https://3d-studio123.github.io/"><img src="https://img.shields.io/badge/Open in-iphone-blue" alt="google colab logo"></a> 
+
+
+Convert the generated animation file (.glb) to .usdz format using Sketchfab (upload glb and download usdz) or other tools, and insert the animated avatar to web with [model-viewer](https://modelviewer.dev/).
+
+```bash
+<!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+<!-- Use it like any other HTML element -->
+<model-viewer src="assets/human.glb" camera-controls ar shadow-intensity="1" ios-src="assets/human.usdz"></model-viewer>
+
+```
+AR function is only supported with iPhone, try the [AR example](https://3d-studio123.github.io/) in the phone browser and click the right-down icon for AR experience.
+
+
+
+## Avatar Generation
+
+
+
+## Training Your Own Model
 
 
 
