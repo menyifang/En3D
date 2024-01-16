@@ -34,15 +34,19 @@ More results can be found in [project page](https://menyifang.github.io/projects
 
 
 ## Updates
-(2023-01-15) ModelScope Online demo is available! Try out [![ModelScope Spaces](
-https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/studios/alibaba_openvision_3dgen/En3D/summary). 
+(2023-01-15) ModelScope and HuggingFace Online demo is available! Try out [![ModelScope Spaces](
+https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/studios/alibaba_openvision_3dgen/En3D/summary) [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/menyifang/En3D). 
 
-(2023-01-15) A Rigged & Animated 3D Human library (3DHuman-Syn) is released, containing ~1000 avatars produced by En3D for quick experience.
+(2023-01-15) A Rigged & Animated 3D Human library (3DHuman-Syn) is released, containing ~1000 avatars produced by En3D for quick experience. Infinite avatars and actions support will be coming soon!
 
 (2023-01-03) The paper and video are released.
 
+
 ## Web Demo
+
 - Integrated an online demo into [ModelScope](https://modelscope.cn/studios/alibaba_openvision_3dgen/En3D/summary). Try out and have fun!
+
+- Integrated an online demo into [Huggingface Spaces 🤗](https://huggingface.co/spaces/menyifang/En3D). Try out and have fun!
 
 
 ## Installation
