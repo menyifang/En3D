@@ -468,6 +468,5 @@ app = WebApp(debug_mode=False)
 demo = app.ui()
 
 if __name__ == "__main__":
-    demo.launch(server_name='30.24.152.138', server_port=8788)
-    # demo.queue(max_size=100)
-    # demo.launch(share=False)
+    # demo.launch(server_name='30.24.152.138', server_port=8788)
+    demo.queue().launch(share=True, max_threads=80)

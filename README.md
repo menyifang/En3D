@@ -51,6 +51,8 @@ https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/stud
 
 ## Installation
 ```bash
+git clone https://github.com/menyifang/En3D.git
+cd En3D
 conda create -n en3d python=3.8
 conda activate en3d
 pip install -r requirements.txt
