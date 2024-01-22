@@ -71,7 +71,7 @@ https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/stud
 ![app](assets/app_thumb.png)
 
 
-With own machine, you can also deploy our demo as below, which provides flexible user interface. Both CPU/GPU are supported for avatar render and animation, only GPU (>24G memory) is supported for avatar generation.
+With own machine, you can also deploy our demo as below, which provides flexible user interface. Both CPU/GPU are supported for avatar animation, only GPU (>24G memory) is supported for avatar generation and render.
 
 ```bash
 python app.py
