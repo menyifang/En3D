@@ -2,8 +2,8 @@ modelscope==1.10.0
 gradio==4.10.0
 git+https://github.com/NVlabs/nvdiffrast/
 imageio
-torch==1.13.1
-torchvision==0.14.1
 opencv-python
 transformers
 sentencepiece
+numba
+ninja

@@ -49,14 +49,19 @@ https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/stud
 - Integrated an online demo into [Huggingface Spaces 🤗](https://huggingface.co/spaces/menyifang/En3D). Try out and have fun!
 
 
-## Installation
-```bash
-git clone https://github.com/menyifang/En3D.git
-cd En3D
-conda create -n en3d python=3.8
-conda activate en3d
-pip install -r requirements.txt
-```
+## Requirements
+
+* We recommend Linux for performance and compatibility reasons.
+* 1&ndash;8 high-end NVIDIA GPUs. We have done all testing and development using V100, RTX3090, and A100 GPUs.
+* 64-bit Python 3.8 and PyTorch 1.11.0 (or later). See https://pytorch.org for PyTorch install instructions.
+* CUDA toolkit 11.3 or later. We used the custom CUDA extensions from the StyleGAN3 repo. Please see [Troubleshooting](https://github.com/NVlabs/stylegan3/blob/main/docs/troubleshooting.md#why-is-cuda-toolkit-installation-necessary)
+* Python libraries: see [requirements.txt](./requirements.txt) for exact library dependencies.  You can use the following commands with Anaconda to create and activate your Python environment:
+  - `cd En3d`
+  - `conda create -n en3d python=3.8`
+  - `conda activate eg3d`
+  - `pip install -r requirements.txt`
+
+
 
 ## Quick Start
 
