@@ -9,6 +9,8 @@
 [Miaomiao Cui](mailto:miaomiao.cmm@alibaba-inc.com),
 [Zhouhui Lian](https://www.icst.pku.edu.cn/zlian/),
 [Xuansong Xie](https://scholar.google.com/citations?user=M0Ei1zkAAAAJ&hl=en)<br>
+In: CVPR 2024
+
 
 En3D is a large 3D human generative model trained on millions of synthetic 2D data, independently of any pre-existing 3D or 2D assets. 
 This repo contains an implementation of En3D and provides a series of applications built upon it. In addition, this repo aims to be a useful creative tool to produce realistic 3D avatars from seeds, text prompts or images, and support automatic character animation FBX production. 
@@ -34,6 +36,11 @@ More results can be found in [project page](https://menyifang.github.io/projects
 
 
 ## Updates
+
+(2024-10-29) The code of avatar generation & animation are available.
+
+(2024-10-29) The pretrained weights are available from [Modelscope](https://modelscope.cn/models/alibaba_openvision_3dgen/cv_en3d_3d_human_generation).
+
 (2023-01-15) ModelScope and HuggingFace Online demo is available! Try out [![ModelScope Spaces](
 https://img.shields.io/badge/ModelScope-Spaces-blue)](https://modelscope.cn/studios/alibaba_openvision_3dgen/En3D/summary) [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/menyifang/En3D). 
 
@@ -112,8 +119,7 @@ AR function is only supported with iPhone, try the [AR example](https://3d-studi
 ## Avatar Generation
 
 ### Download
-Download the whole `models` folder from the [link](https://modelscope.cn/models/alibaba_openvision_3dgen/cv_en3d_3d_human_generation/files) and put it under the root dir.
-Download blender-3.1.2-linux-x64.tar.xz from the [link](https://modelscope.cn/models/iic/cv_3d-human-animation/files) and put it into `models/3D-assets` folder.
+- Download the whole `models` folder from the [link](https://modelscope.cn/models/alibaba_openvision_3dgen/cv_en3d_3d_human_generation/files) and put it under the root dir.
 
 ```bash
 python download_models.py
