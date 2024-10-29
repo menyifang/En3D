@@ -5,8 +5,8 @@ import pickle
 import numpy as np
 import torch
 
-from .bvh_writer import WriterWrapper
-from .utils import matrix_to_axis_angle, rotation_6d_to_matrix
+from bvh_writer import WriterWrapper
+from utils import matrix_to_axis_angle, rotation_6d_to_matrix
 
 
 def laod_smpl_params(pose_fname):

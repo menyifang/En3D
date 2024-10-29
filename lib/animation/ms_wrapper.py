@@ -1,6 +1,4 @@
 # Copyright (c) Alibaba, Inc. and its affiliates.
-
-
 from modelscope.models.base import TorchModel
 from modelscope.preprocessors.base import Preprocessor
 from modelscope.pipelines.base import Model, Pipeline

@@ -111,9 +111,39 @@ AR function is only supported with iPhone, try the [AR example](https://3d-studi
 
 ## Avatar Generation
 
+### Download
+Download the whole `models` folder from the [link](https://modelscope.cn/models/alibaba_openvision_3dgen/cv_en3d_3d_human_generation/files) and put it under the root dir.
+Download blender-3.1.2-linux-x64.tar.xz from the [link](https://modelscope.cn/models/iic/cv_3d-human-animation/files) and put it into `models/3D-assets` folder.
+
+```bash
+python download_models.py
+```
+
+### Generate 360 renderings
+    
+```bash
+bash run_seed_pretrained.sh
+```
+
+### Text guided synthesis
+```bash
+bash run_text_synthesis.sh
+```
+
+### Image guided synthesis
+Repose the human image to canonical A-pose first, and then using the following command to generate the 3D avatar.
+```bash
+bash run_img_synthesis.sh
+```
+
+## Avatar Animation
+Auto-rig and animation for the generated 3D avatar
+```bash
+bash run_animate.sh
+```
 
 
-## Training Your Own Model
+
 
 
 

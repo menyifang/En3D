@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+diffusers
+accelerate
+xformers
+triton
+transformers

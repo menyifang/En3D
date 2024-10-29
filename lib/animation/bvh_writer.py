@@ -2,7 +2,7 @@
 import numpy as np
 import torch
 
-from .transforms import aa2quat, batch_rodrigues, mat2aa, quat2euler
+from transforms import aa2quat, batch_rodrigues, mat2aa, quat2euler
 
 
 def write_bvh(parent,
