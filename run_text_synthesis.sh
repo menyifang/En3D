@@ -32,7 +32,7 @@ WORK_DIR=$(pwd)
 IN_BACK=${SAVE_DIR}/${CASE}_back.png
 cp ${IN_BACK} ${DATA_DIR}/
 mv ${DATA_DIR}/${CASE}_back.png ${DATA_DIR}/gt_back.png
-## generate normals using ICON, install and download models following https://github.com/YuliangXiu/ICON
+## generate normals using ICON, install and download models following https://github.com/menyifang/ICON/tree/master
 cd [your_ICON_directory]
 [optional] source activate icon_env  #setup extra conda env if conflict exists
 python -m apps.infer_normal_fixpose -cfg ./configs/icon-filter.yaml \

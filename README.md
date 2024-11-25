@@ -136,11 +136,17 @@ bash run_seed_pretrained.sh
 bash run_text_synthesis.sh
 ```
 
+https://github.com/user-attachments/assets/7ca89be8-9f5c-410d-9168-9f241778a197
+
+
 ### Image guided synthesis
 Repose the human image to canonical A-pose first, and then using the following command to generate the 3D avatar.
 ```bash
 bash run_img_synthesis.sh
 ```
+
+https://github.com/user-attachments/assets/10ddc739-3ed5-4875-a6d0-908c8dbfcb31
+
 
 ## Avatar Animation
 Auto-rig and animation for the generated 3D avatar
@@ -148,10 +154,18 @@ Auto-rig and animation for the generated 3D avatar
 bash run_animate.sh
 ```
 
+https://github.com/user-attachments/assets/581089a4-971d-4431-a272-e9663fe5bad5
 
 
 
+## Acknowledgments
 
+Here are some great resources we benefit from:
+
+- [Multiview-Avatar](https://github.com/ArcherFMY/Multiview-Avatar) for 2D avatar synthesis
+- [EG3D](https://nvlabs.github.io/eg3d/) for the general 3D GAN structure and 3D representation
+- [Fantasia3D](https://github.com/Gorilla-Lab-SCUT/Fantasia3D) for DMTET optimization 
+- [ICON](https://github.com/YuliangXiu/ICON) for normal estimation
 
 
 ## Citation

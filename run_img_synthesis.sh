@@ -19,7 +19,7 @@ IMG_DIR=${DATA_DIR}/image
 NORM_DIR=${DATA_DIR}/normal
 WORK_DIR=$(pwd)
 
-## generate normals using ICON, install and download models following https://github.com/YuliangXiu/ICON
+## generate normals using ICON, install and download models following https://github.com/menyifang/ICON/tree/master
 cd [your_ICON_directory]
 #[optional] source activate icon_env  #setup extra conda env if conflict exists
 python -m apps.infer_normal_fixpose -cfg ./configs/icon-filter.yaml \
